@@ -1,0 +1,115 @@
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* 
+.main {
+    display: flex;
+}*/
+
+.header {
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;
+}
+
+.left {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+
+.right{
+    float: left;
+}
+
+.yellow {
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;
+    float: left;
+}
+
+.pink {
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+    float: left;
+}
+
+.blue {
+    width: 150px;
+    height: 100px;
+    margin-top: 50px;
+    background-color: #0093b7;
+}
+
+.blown {
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+}
+
+.footer {
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}
+
+/*スマホ用のCSS
+ウィンドウ幅が最大479pxまでの場合に適用*/
+@media screen and (max-width: 767px) {
+    #wrapper {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .header {
+        width: 150px;
+        height: 100px;
+        background-color: #141f40;
+    }
+    
+    .left {
+        width: 150px;
+        height: 100px;
+        background-color: #80bfa8;
+    }
+    
+    /* .right{
+        float: left;
+    } */
+    
+    .pink {
+        width: 150px;
+        height: 50px;
+        background-color: #dbd400;
+    }
+    
+    .yellow {
+        width: 150px;
+        height: 100px;
+        background-color: #ff9e6b;
+    }
+    
+    .blue {
+        width: 150px;
+        height: 100px;
+        background-color: #0093b7;
+    }
+    
+    .blown {
+        width: 150px;
+        height: 100px;
+        background-color: #8c2727;
+    }
+    
+    .footer {
+        width: 150px;
+        height: 100px;
+        background-color: #d98d30;
+    }
+}
